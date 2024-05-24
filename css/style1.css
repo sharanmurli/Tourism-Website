@@ -1,0 +1,453 @@
+.video1{
+	top: 55%;
+    left: 55%;
+    min-width: 90%;
+    min-height: 90%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    transform: translateX(-50%) translateY(-50%);
+	margin-left:660px;
+	margin-top:350px;
+	
+}
+
+#more {display: none;}
+.example{
+    	margin: 20px;
+    }
+.center { 
+margin: 0 auto; 
+width: 100%; 
+padding-bottom:100px;
+
+}
+
+nav
+{
+    width:100%;  /*of entire screen*/
+    margin:0;
+}
+.navbar-brand {
+  transform: translateX(-50%);
+  left: 50%;
+  position: absolute;
+
+}
+
+
+.button {
+  display: inline-block;
+  border-radius: 1px;
+  background-color: grey;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 18px;
+  text-transform:uppercase;
+  padding: 10px;
+  width: 120px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 1px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+.button1 {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button1:hover {
+  opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  position: relative;
+}
+
+.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container {
+
+	padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 40px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 50%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+.move{
+	
+	
+	
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+
+
+ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+  background-color: #eee;
+}
+ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+}
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+ul.breadcrumb li a {
+  color: #0275d8;
+  text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+  color: #01447e;
+  text-decoration: underline;
+}
+
+.section {
+    padding: 30px 0 5px 0;
+}
+.section {
+    position: relative;
+}
+.footer-nav-section {
+    background: #17406c;
+}
+.pt-5, .py-5 {
+    padding-top: 3rem !important;
+}
+ 
+.footer-nav a, .footer p, .list-inline-item a {
+    color: #fff;
+    font-size: 1.3em;
+	text-decoration:none
+}
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+   
+}
+
+
+
+
+.footer-link-item h5.title:before{
+	 border: solid .5px #fff;
+	
+}
+ *, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.footer .title {
+    font-family: 'Raleway',sans-serif;
+    font-weight: 600;
+}
+.title {
+    font-family: 'Montserrat',sans-serif;
+    font-size: 4.5em;
+    text-transform: capitalize;
+    color: #2c4058;
+}
+.title {
+    line-height: 26px;
+    margin-bottom: 10px;
+}
+.title-xs {
+    font-size: 1.4em;
+	
+	
+	 font-family: "Lucida Console", Courier, monospace;
+}
+
+.lazyloaded {
+    opacity: 1;
+    transition: opacity 3000ms 500ms;
+}
+.uc-icon.fa-facebook {
+    background-position: top -30px left -28px;
+}
+.uc-icon.fa-twitter {
+    background-position: top -30px left -88px;
+}
+.uc-icon.fa-instagram {
+    background-position: top -30px left -150px;
+}
+.uc-icon.fa-youtube {
+    background-position: top -30px left -210px;
+}
+.uc-icon {
+    display: inline-block;
+    transition: .1s cubic-bezier(0.39,0.575,0.565,1);
+    transition-property: opacity,transform;
+}
+.uc-icon {
+    width: 40px;
+    display: inline-block;
+    height: 40px;
+   
+    background-repeat: no-repeat;
+}
+.footer-nav {
+    display: inline-block;
+}
+
+.footer-line {
+    width: 100%;
+    border-top: 1px solid rgba(255,255,255,0.47);
+    margin: 0;
+    margin-bottom: 10px;
+}
+.list-inline {
+    padding-left: 0;
+	font-size:0.65em;
+    list-style: none;
+	list-style-position: initial;
+    list-style-image: initial;
+    list-style-type: none;
+	font-family: "Lucida Console", Courier, monospace;
+}
+dl, ol, ul {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.footer .footer-nav-section h5.title{padding-bottom:15px;margin-bottom:15px;min-height:49px;margin-top:15px}
+.footer-nav{display:inline-block}
+.footer-link-item h5.title{position:relative}
+.footer-link-item h5.title:before{content:'';position:absolute;bottom:0;left:0;width:90px;height:1px}
+.state-tourism{display:block;float:left;width:100%}
+.state-tourism.m-bottom-footer{text-align:center}
+.footer-important li{width:33.33%;float:left}
+.footer-important-web,.footer-up-tourism{display:block;width:50%;float:left}
+.footer-nav-section a{position:relative;padding-left:0;color:#fff;line-height:22px}
+.footer-nav-section a:hover{color:#89c9ff}
+.footer-link-item h5.title {
+    position: relative;
+}
+.footer-nav-section h5.title {
+    color: #fff;
+}
+.footer-link-item h5.title:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 90px;
+    height: 1px;
+}
+
+h5 {
+    display: block;
+    font-size: 0.83em;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+
+body{
+	padding:20px;
+}
+
+.card-title{
+	padding:0px;
+	color:#6C3483;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: grey;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  bottom: 0;
+  height: 20%;
+  margin-left:10px;
+}
+
+.text {
+  color: white;
+  font-size: 14px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+.column {
+  float: left;
+  width:20%;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.image {
+  display: inline-block;
+  width: 100%;
+  height: 0;
+ }
+
+
+body{
+	padding:10px;
+}
